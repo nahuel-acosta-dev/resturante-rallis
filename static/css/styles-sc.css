@@ -1,0 +1,115 @@
+body {
+  font-size: 1em;
+  background-image: url("../images/architecture-70920.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+.breadcrumb {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #a82342;
+}
+
+.breadcrumb-item {
+  padding-left: 10px;
+}
+
+li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.cont-tarjetas > div {
+  opacity: 0.8;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+.card-background {
+  background-color: bisque;
+}
+
+.carousel-item > img {
+  max-height: 400px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.cards-hotel {
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.text-primary {
+  background-color: #a82342;
+}
+
+.text-primary > p {
+  color: white;
+  font-weight: bold;
+}
+
+.cards-tit {
+  border-bottom: 2px solid gray;
+  background-image: url("../images/chicken-4343402_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+
+.cards-hotel:nth-child(1), .cards-hotel:nth-child(2) {
+  margin-right: 20px;
+}
+
+.hoteles-1 {
+  margin-bottom: 50px;
+}
+
+.cards-hotel {
+  flex: 1 150px;
+  padding: 2px 2px 2px 2px;
+}
+
+.btn-obtener {
+  width: 100%;
+  margin: auto;
+}
+
+footer {
+  background-color: #e31269;
+  padding: 10px 10px 10px 10px;
+  height: 160px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  bottom: 0;
+  width: 100%;
+}
+
+address {
+  width: 100%;
+  font-size: 12px;
+}
+
+.footer-addres-icons {
+  padding-right: 10px;
+}
+
+/*------------------------MD-------------------*/
+@media (max-width: 768px) {
+  .cards-hotel {
+    margin-top: 20px;
+  }
+}

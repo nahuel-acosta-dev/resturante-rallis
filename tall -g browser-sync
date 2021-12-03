@@ -1,0 +1,17 @@
+[33mcommit 33135159807210aa678047135bf3cd104bd0dd1e[m[33m ([m[1;36mHEAD -> [m[1;32mPrincipal[m[33m, [m[1;31morigin/Principal[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nahuel Acosta <brianacostanahuel2000@gmail.com>
+Date:   Tue Aug 31 00:12:08 2021 -0300
+
+    definicion del package.json
+
+[33mcommit 8ee6e5aa60d5f77fcce16eaf9bd8af4ff966353a[m
+Author: Nahuel Acosta <brianacostanahuel2000@gmail.com>
+Date:   Sat Aug 28 00:44:59 2021 -0300
+
+    Primer version del proyecto
+
+[33mcommit 810527735df05533adda243e61c7ec7ac71f9da6[m
+Author: NB20 <brianacostanahuel2000@gmail.com>
+Date:   Sat Aug 28 02:57:23 2021 +0000
+
+    Initial commit

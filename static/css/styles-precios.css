@@ -1,0 +1,51 @@
+body{
+    font-size: 1em;
+    background-image: url("../images/architecture-70920.jpg");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    margin-bottom: 100px;
+}
+
+.accordion-background{
+    background-color: gold;
+}
+
+.breadcrumb{
+    border:2px solid black;
+    border-radius: 5px;
+    background-color:brown;
+}
+.breadcrumb-item{
+    padding-left: 10px;
+}
+li>a{
+    color: white;
+    text-decoration:none;
+}
+.table{
+    color:white;
+    margin-bottom: 50px;
+}
+footer{
+    background-color:indianred;
+    padding: 10px 10px 10px 10px;
+    height: 160px;
+    margin-top:10px;
+    margin-bottom:0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+address{
+    width: 100%;
+    font-size: 12px;
+}
+
+.footer-addres-icons{
+    padding-right: 10px;
+}
+

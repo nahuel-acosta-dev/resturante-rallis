@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- build:css static/css/contactos.css-->
+      <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+      <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+      <link href="static/css/styles-contact.css" rel="stylesheet">
+      <!-- endbuild -->
+      <title>Ralli's</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid text-center">
+               <a class="navbar-brand" href="#">Ralli's</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                     <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                     <a class="nav-link active" href="#">Contact</a>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <div class="container">
+         <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+               <li class="breadcrumb-item active"><a href="#">Contact</a></li>
+            </ol>
+         </nav>
+         <div class="title text-center">
+            <h1>Dejame tu comentario</h1>
+         </div>
+         <form class="row g-3">
+            <div class="col-md-6">
+               <label for="nombre" class="form-label">Nombre</label>
+               <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu Nombre" required>
+            </div>
+            <div class="col-md-6">
+               <label for="apellido" class="form-label">Apellido</label>
+               <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu Apellido" required>
+            </div>
+            <div class="col-12">
+               <label for="email" class="form-label">Email</label>
+               <input type="email" class="form-control" id="email" placeholder="Ingresa tu direccion" required>
+            </div>
+            <div class="col-md-6">
+               <label for="direccion" class="form-label">Direccion</label>
+               <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion" required>
+            </div>
+            <div class="col-md-4">
+               <label for="provincia" class="form-label">Provincia</label>
+               <select id="provincia" class="form-select" required>
+                  <option selected>Capital Federal</option>
+                  <option>Buenos Aires</option>
+                  <option>Cordoba</option>
+                  <option>Santiago del Estero</option>
+                  <option>Chubut</option>
+               </select>
+            </div>
+            <div class="col-md-2">
+               <label for="inputZip" class="form-label">Codigo postal</label>
+               <input type="text" class="form-control" id="inputZip" placeholder="Ejem. B1665">
+            </div>
+            <div class="mb-3">
+               <label for="validationTextarea" class="form-label">Tu comentario</label>
+               <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" rows="2" required></textarea>
+            </div>
+            <div class="form-check">
+               <input class="form-check-input" type="checkbox" id="gridCheck">
+               <label class="form-check-label" for="gridCheck">
+               Quiero que me contacten
+               </label>
+            </div>
+            <div class="col-12">
+               <button type="submit" class="btn btn-warning">Enviar</button>
+            </div>
+         </form>
+      </div>
+      <footer class="justify-content-end">
+         <address class="row">
+            <div class="col">
+              <p><a href="http://www.facebook.com">facebook</a></p>
+              <p><a href="http://www.twitter.com">twitter</a></p>
+              <p><a href="http://www.instagram.com">instagram</a></p>
+            </div>
+            <div class="col">
+               <h3>Ubicacion</h3>
+               <p><span class="oi oi-home footer-addres-icons"></span>echeverri 903</p>
+               <p><span class="oi oi-phone footer-addres-icons"></span>0800 444-2351</p>
+               <p><span class="oi oi-inbox footer-addres-icons"></span>@grandesdelAlmuerzo@gmail.com</p>
+            </div>
+            <div class="col">
+               <p>Privacy</p>
+               <p>Terms</p>
+               <p>Contact</p>
+               <p>Copyright 2021, Original Guitarras</p>
+            </div>
+         </address>
+      </footer>
+      <!-- build:js static/js/main.js-->
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>   
+      <script src="static/js/script.js"></script>
+      <!-- endbuild -->
+      <script id="__bs_script__">//<![CDATA[
+         document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.27.5'><\/script>".replace("HOST", location.hostname));
+     //]]></script>
+   </body>
+</html>
